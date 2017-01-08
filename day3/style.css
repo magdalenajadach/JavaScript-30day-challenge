@@ -10,7 +10,7 @@ img {
   filter: blur(var(--blur));
 }
 
-.hl {
+.title-variable {
   color: var(--base);
 }
 
@@ -26,16 +26,11 @@ body {
   font-size: 50px;
 }
 
-.controls {
-  margin-bottom: 50px;
-}
-
-a {
-  color: var(--base);
-  text-decoration: none;
-}
-
 input {
   width:100px;
+}
+
+.controls {
+  margin-bottom: 50px;
 }
 
