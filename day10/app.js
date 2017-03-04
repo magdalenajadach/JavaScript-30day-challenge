@@ -1,10 +1,9 @@
 const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');
 
-
+let lastChecked;
 function handleCheck(event) {
 	// check if there is the shiht key down and that user is checking it
 	let isBetween = false;
-	let lastChecked;
 	if(event.shiftKey && this.checked) {
 		// loop over every single checkbox
 		checkboxes.forEach(checkbox => {
